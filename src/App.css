@@ -1,38 +1,41 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.hd1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  .hd1_c1{
+    margin-left: 50px;
+    margin-bottom: 100px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
-  to {
-    transform: rotate(360deg);
+  .hd1_c2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 50px;
   }
-}
+  .hd1_c1 p{
+  font-size: 9px;
+  color: rgb(27, 27, 27);
+  }
+  
+  .hd1_c2 p{
+    font-size: 9px;
+    color: rgb(27, 27, 27);
+    }
+
+  div.tooltip {
+    position: absolute;
+    text-align: center;
+    height: 28px;
+    padding: 5px;
+    font: 12px sans-serif;
+    color: white;
+    background: rgb(0, 0, 0);
+    border: 0px;
+    border-radius: 3px;
+    pointer-events: none
+  }
